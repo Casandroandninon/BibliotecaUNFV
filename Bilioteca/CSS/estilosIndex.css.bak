@@ -1,0 +1,278 @@
+*
+{
+    margin: 00px;
+    padding: 00px;
+    box-sizing: border-box;
+}
+
+.logoUnfv
+{
+    width: 350px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+nav
+{
+    float: right;
+    margin-top: 70px;
+    margin-right: 170px;
+}
+
+li
+{
+    display: table-cell;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 25px;
+}
+
+li:hover a
+{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+li:active a
+{
+    background-color: rgb(194, 126, 0);
+}
+
+.bloqueBienvenido
+{
+    float: left;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+h1,h2,p
+{
+    font-family: sans-serif;
+}
+
+h1
+{
+    font-size: 50px;
+}
+
+p
+{
+    color: #6d6d6c;
+    text-align: justify;
+    width: 500px;
+    font-size: 18px;
+}
+
+.logoLibros
+{
+    margin-top: 100px;
+    margin-right: 250px;
+    float: right;
+    width: 400px;
+}
+
+main
+{
+    margin-top: 500px;
+}
+
+.servicios
+{
+    margin-left: 35%;
+    width: 500px;
+}
+
+.servicios h1
+{
+    text-align: center;
+}
+
+.servicios p
+{
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f4c7cb;
+}
+
+.contenedor
+{
+    margin-left: 200px;
+}
+
+.catalogoEnLinea, .bibliotecaVirtual, .repositorioInstitucional, .reserva
+{
+    width: 20px;
+    height: 360px;
+    float: left;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgb(133, 131, 131);
+}
+
+h2
+{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.contenedor p
+{
+    margin: 50px 25px 25px;
+    width: 270px;
+    font-size: 17px;
+    color: #121313;
+}
+
+.contenedor button
+{
+    background-color:#f07712;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    margin-left: 23%;
+    margin-top: 22%;
+}
+
+.contenedor a
+{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+button:hover 
+{
+    background-color: #ff9a48;
+}
+
+button:active
+{
+    background-color: #b95605;
+}
+
+.footerSuperior
+{
+    background-color: #fdba30;
+    height: 90px;
+    margin-top: 35%;
+}
+
+.footerSuperior p
+{
+    width: 860px;
+    margin-left: 23%;
+    padding-top: 37px;
+    color: #010100;
+}
+
+
+.footerInferior
+{
+    background-color: #010100;
+    height: 200px;
+}
+
+.informacionUNFV p
+{
+    font-size: 16px;
+    color: #fefeff;
+    width: 40%;
+    margin-left:400px;
+    padding-top:60px;
+}
+
+.LogoUnfvTransparente
+{
+    margin-top: 60px;
+    margin-left: 60px;
+    float: left;
+}
+
+.RedesSociales
+{
+    float: right;
+}
+
+.RedesSociales p
+{
+    color: #fefeff;
+    margin-top: -90px;
+    font-size: 16px;
+}
+
+.NavegadorRedesSociales
+{
+    margin-top: -10px;
+    margin-right: 430px;
+    float: right;
+}
+
+.NavegadorRedesSociales ul
+{
+    margin-left: 40px;
+}
+
+.Facebook
+{
+    background-image: url(/img/icono_FacebookBlanco.png);
+    width: 25px;
+    height: 25px;
+}
+
+.Facebook:hover
+{
+    background-image: url(/img/icono_FacebookHover.png);
+}
+
+.Twitter
+{
+    background-image: url(/img/icono_TwitterBlanco.png);
+    width: 23px;
+    height: 23px;
+}
+
+.Twitter:hover
+{
+    background-image: url(/img/icono_TwitterHover.png);
+}
+
+.Instagram
+{
+    background-image: url(/img/icono_InstagramBlanco.png);
+    width: 23px;
+    height: 23px;
+}
+
+.Instagram:hover
+{
+    background-image: url(/img/icono_InstagramHover.png);
+}
+
+.Youtube
+{
+    background-image: url(/img/icono_YoutubeBlanco.png);
+    width: 25px;
+    height: 25px;
+}
+
+.Youtube:hover
+{
+    background-image: url(/img/icono_YoutubeHover.png);
+}
+
+.LogoLibroReclamaciones
+{
+    width: 200px;
+    float: right;
+    margin-top: -120px;
+    margin-right: 90px;
+}

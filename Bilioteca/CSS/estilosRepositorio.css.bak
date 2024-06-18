@@ -1,0 +1,257 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Tahoma, sans-serif;
+}
+
+header
+{
+    background-color: #ffe08d;
+    border: 1px solid #dda304;
+}
+
+header img
+{
+    margin-left: 300px;
+    margin-top: 5px;
+    width: 20px;
+}
+
+header p
+{
+    color: #333333;
+    float: right;
+    margin-right: 71%;
+    margin-top: 6px;
+}
+
+header a
+{
+    color: #ffb618; 
+    text-decoration: none;
+}
+
+header a:hover
+{
+    color: #bf8c01; 
+    text-decoration: underline;
+}
+
+.contenedorConceptoRepositorio
+{
+    width: 50%;
+    margin-left: 230px;
+    margin-top: 5px;
+}
+
+.contenedorConceptoRepositorio h1,h2
+{
+    padding: 12px;
+    margin-left: -10px;
+}
+
+.contenedorConceptoRepositorio h2
+{
+    margin-top: 40px;
+}
+
+.contenedorConceptoRepositorio p
+{
+    margin-top: 20px;
+}
+
+hr
+{
+    height: 1px;
+    border: none;
+    color:  #eeeeee;
+    background-color: #eee;
+}
+
+
+
+.navegadorAbecedario
+{
+    width: 697px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 40px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px 0 rgb(133, 131, 131);
+}
+
+.navegadorAbecedario li
+{
+    display: table-cell;
+}
+
+.navegadorAbecedario button:hover
+{
+    background-color: #ffbf0e;
+    color: white;
+}
+
+.navegadorAbecedario button
+{
+    background-color: #fff;
+    font-size: 13px;
+    padding: 8px;
+    color: #383838;
+    border-radius: 0px;
+    border: 1px solid #eeeeee;
+}
+
+/*
+.navBDGeneral
+{
+    width: 279px;
+    margin-top: 50px;
+    margin-right: 200px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px 0 rgb(133, 131, 131);
+}
+
+
+.navBDGeneral button:hover
+{
+    background-color: #f17612;
+    color: white;
+}
+
+.navBDGeneral button
+{
+    background-color: #fff;
+    margin: 2px;
+    font-size: 17px;
+    padding: 8px;
+    color: #383838;
+    border-radius: 0px;
+} */
+
+
+
+.miniContenedores
+{
+    width: 370px;
+    height: 400px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgb(133, 131, 131);
+    background-image: url(/img/fondo_MinicontenedorLibros.jpg);
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+}
+
+.miniContenedores h3
+{
+    margin-top: 30px;
+    text-align: center;
+    width: 90%;
+}
+
+.miniContenedores a
+{
+    text-decoration: none;
+    color: #202020;
+    font-size: 20px;
+}
+
+.miniContenedores a:hover
+{
+    text-decoration: underline;
+    color: #0c0c0c;
+}
+
+
+.informacionLibro
+{
+    width: 60%;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #202020;
+}
+
+.imagenLibro 
+{
+    width: 35%;
+    float: right;
+    box-shadow: -1px 3px 6px 1px rgb(133, 131, 131);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+
+
+
+.contenedorBuscarYCategorias
+{
+    background-color: #f7f7f7;
+    width: 19.5%;
+    float: right;
+    margin-right: 250px;
+    height: 850px;
+}
+
+.contenedorBuscador
+{
+    width: 302px;
+    margin-left: 25px;
+    margin-top: 10px;  
+}
+
+#cajaBuscadora
+{
+    width: 230px;
+    padding: 7px;
+    border: 1px solid #d8d8d9;
+    border-radius: 3px;
+	grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+}
+
+#botonBuscar
+{
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-right: 39px;
+    background-color: #ffbc0c;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.contenedorCategoriasDeProfesiones, .contenedorCategoriasDeCatalogo
+{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.tabla
+{
+    border-radius: 10px;
+    width: 260px;
+}
+
+.tabla a
+{
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #797c81;    
+}
+
+.tabla a:hover
+{
+    background-color: #f4f5f4;
+}

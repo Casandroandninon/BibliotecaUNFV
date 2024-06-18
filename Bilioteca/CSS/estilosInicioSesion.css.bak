@@ -1,0 +1,127 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #cc640f;
+}
+
+.main
+{
+    width: 900px;
+    height: 728px;
+    margin-left: 340px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px ; 
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%)
+}
+
+.contieneLogoComputadora
+{
+    float: left;
+    background-color: #f17612;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.logoInicioSesion
+{
+    width: 450px;
+    margin-top: 245px;
+    margin-bottom: 245px;
+}
+
+.contenedorInicioSesion
+{
+    width: 50%;
+    float: right;
+}
+
+.logoUNFV
+{
+    width: 400px;
+    margin-top: 60px;
+    margin-left:46px;
+
+}
+
+.formulario
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    float: left;
+}
+
+h1, p, a
+{
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1
+{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+}
+
+input[type = radio]
+{
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+p
+{
+    margin-bottom: 1rem;
+    left:right;
+    font-size: 14.5px;
+}
+
+.cajasTexto
+{
+    padding: 16px 15px;
+    width: 330px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid #d0d3e3;
+}
+
+
+
+
+.formulario a
+{
+    background-color: #f17612;
+    padding: 16px 135.5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 12px;
+    border: 0;
+}
+
+.formulario a:hover
+{
+    background-color: #cc640f;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 30px;
+}
+
+.formulario a:active
+{
+    background-color: #ff933b;
+}
+
+.registrarse
+{
+    margin-left: 150px;
+    margin-top: 400px;
+}
