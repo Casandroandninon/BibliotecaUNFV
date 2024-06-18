@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/estilosRepositorio.css">
+    <title>
+        Repositorio UNFV
+    </title>
+</head>
+<body>
+    
+    <header> 
+
+        <img src="../../img/icono_HomePage.png" alt="Icono Home Page">
+
+        <p style="margin-right: 64%;">
+            <a href="../../final/repositorioUNFVPrincipal.html">
+                Repositorio UNFV
+            </a>
+               /   Listar por Autor
+        </p>
+
+    </header>
+
+    <main>
+
+        <div class="contenedorConceptoRepositorio">
+  
+          <h1>
+            Listar por Autor
+          </h1>
+  
+          <hr class="hr"/>
+  
+          <nav class="navegadorAbecedario">
+              <ul>
+                  <li>
+                      <button onclick="buscarAutor('A')">
+                        A
+                      </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('B')">
+                        B
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('C')">
+                        C
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('D')">
+                        D
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('E')">
+                        E
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('F')">
+                        F
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('G')">
+                        G
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('H')">
+                        H
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('I')">
+                        I
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('J')">
+                        J
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('K')">
+                        K
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('L')">
+                        L
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('M')">
+                        M
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('N')">
+                        N
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('O')">
+                        O
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('P')">
+                        P
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('Q')">
+                        Q
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('R')">
+                        R
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('S')">
+                        S
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('T')">
+                        T
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('U')">
+                        U
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('V')">
+                        V
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('W')">
+                        W
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('X')">
+                        X
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('Y')">
+                        Y
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="buscarAutor('Z')">
+                        Z
+                    </button>
+                  </li>
+              </ul>
+          </nav>
+  
+          <hr/>
+
+          <div id="Montoya Palacio Alberto" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="../../Pdfs/kupdf.net_administracion-de-compras-quien-compra-montoya-palacio-alberto.pdf">
+                    Administración de compras quien compra bien, vende bien
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 60px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Montoya Palacio, Alberto
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Bogotá Ecoe 2009 
+
+                </p>
+
+            </div>
+
+            <a href="../../Pdfs/kupdf.net_administracion-de-compras-quien-compra-montoya-palacio-alberto.pdf">
+                <img class="imagenLibro" style="margin-top: -180px;" src="../../img/libro_AdministracionDeCompras_MPA.jpg" alt=" Logo Administracion De Compras">
+
+            </a>
+
+          </div>
+
+
+
+          <div id="Oppenheimer Andres" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="../../Pdfs/Basta_de_historias.pdf">
+                    ¡Basta de historias! la obsesión latinoamericana con el pasado y las 12 claves del futuro
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 37px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Oppenheimer, Andrés
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Buenos Aires Debolsillo 2013
+
+                </p>
+
+            </div>
+
+            <a href="../../Pdfs/Basta_de_historias.pdf">
+
+                <img class="imagenLibro" style="margin-top: -185px;" src="../../img/libro_BastaDeHistorias.jpg" alt=" Logo Basta de Historias">
+
+            </a>
+
+          </div>
+
+
+
+
+          <div id="Murray Robert K Mayes Peter A" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="../../Pdfs/0831.Harper.Bioquímica_ilustrada.pdf">
+                    Bioquímica de Harper Robert K. Murray ... 
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 37px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Murray, Robert K | Mayes, Peter A .
+
+                    <br/><br/>
+
+                    <b>Edición: </b>
+
+                    12a ed.
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    México El Manual Moderno 1992
+
+                </p>
+
+            </div>
+
+            <a href="../../Pdfs/0831.Harper.Bioquímica_ilustrada.pdf">
+
+                <img class="imagenLibro" style="margin-top: -200px;" src="../../img/libro_BioquímicaDeHarper.jpg" alt=" Logo Bioquímica de Harper">
+
+            </a>
+
+          </div>
+
+
+
+
+          <div id="Munari Bruno" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="../../Pdfs/9788425228650_inside.pdf">
+                    ¿Cómo nacen los objetos?
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 70px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Munari, Bruno.
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    México, D.F. Gustavo Gili 1993
+
+                </p>
+
+            </div>
+
+            <a href="../../Pdfs/9788425228650_inside.pdf">
+
+                <img class="imagenLibro" style="margin-top: -180px;" src="../../img/libro_ComoNacenLosObjetos.jpg" alt=" Logo Cómo nacen los objetos">
+
+            </a>
+
+          </div>
+
+
+          <div id="Blackword" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="">
+                    Física general
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 65px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Blackword
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    México D.F. Continental [s.a.]
+
+                </p>
+
+            </div>
+
+            <a href="">
+
+                <img class="imagenLibro" style="margin-top: -185px;" src="../../img/libro_FisicaGeneralBO.jpg" alt=" Logo Basta de Historias">
+
+            </a>
+
+          </div>
+
+
+
+
+          <div id="Barker F Scott" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="">
+                    Microsoft acces 97 paso a paso Barker F. Scott
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 45px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Barker F. Scott.
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    México Prentice Hall 1997
+
+                </p>
+
+            </div>
+
+            <a href="">
+
+                <img class="imagenLibro" style="margin-top: -170px;" src="../../img/libro_MicrosoftAccess97_BFS.jpg" alt="Logo Microsoft acces 97">
+
+            </a>
+
+          </div>
+
+
+
+
+          <div id="Barrera Diaz Carlos Eduardo" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="../../Pdfs/L_513_6.pdf">
+                    Aplicaciones electroquímicas al tratamiento de aguas residuales
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 55px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Barrera Diaz, Carlos Eduardo.
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Barcelona Editorial Reverte 2014
+
+                </p>
+
+            </div>
+
+            <a href="../../Pdfs/L_513_6.pdf">
+
+                <img class="imagenLibro" style="margin-top: -180px;" src="../../img/libro_AplicacionesElectroquimicasTratamientosAguasResiduales_BDCE.gif" alt="Logo Aplicaciones Electroquimicas">
+
+            </a>
+
+          </div>
+
+
+
+          <div id="Pollit Burga Ernesto" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="../../Pdfs/ERROR_O_FRAUDE_2.pdf">
+                    ¿Error o fraude?: engaños y equivocaciones en la investigación psicobiológica infantil
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 30px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Pollit Burga, Ernesto.
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Lima PUCP 2016
+
+                </p>
+
+            </div>
+
+            <a href="../../Pdfs/ERROR_O_FRAUDE_2.pdf">
+
+                <img class="imagenLibro" style="margin-top: -185px;" src="../../img/libro_ErrorOFraude_EPB.jpg" alt="Logo Error o Fraude">
+
+            </a>
+
+          </div>
+
+
+
+
+          <div id="Calvi Bettina" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="">
+                    Abuso sexual en la adolescencia efectos psíquicos
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 40px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Calvi, Bettina.
+
+                    <br/><br/>
+
+                    <b>Edición: </b>
+
+                    Primera Edición
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Buenos Aires Lugar 2005
+
+                </p>
+
+            </div>
+
+            <a href="">
+
+                <img class="imagenLibro" style="margin-top: -195px;" src="../../img/libro_AbusoSexual_BC.webp" alt="Logo Abuso Sexual">
+
+            </a>
+
+          </div>
+
+
+
+
+          <div id="Castillo Malpartida Polo Humberto" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="">
+                    Abastecimiento tarea de todos
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 60px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Castillo Malpartida, Polo Humberto.
+
+                    <br/><br/>
+
+                    <b>Edición: </b>
+
+                    Primera Edición
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Lima Adecsa 1998
+
+                </p>
+
+            </div>
+
+            <a href="">
+
+                <img class="imagenLibro" style="margin-top: -205px;" src="../../img/libro_AbastecimientoTareaDeTodos.png" alt="Logo Abastecimiento tarea de todos">
+
+            </a>
+
+          </div>
+
+
+
+
+          <div id="Mercado H Salvador" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="">
+                    Administración aplicada teoría y práctica 
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 60px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Mercado H., Salvador.
+
+                    <br/><br/>
+
+                    <b>Edición: </b>
+
+                    Tercera Edición
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    México D.F. Limusa 2011
+
+                </p>
+
+            </div>
+
+            <a href="">
+
+                <img class="imagenLibro" style="margin-top: -205px;" src="../../img/libro_AdministracionAplicadaTeoricaPractica_MHS.jpg" alt="Logo Administración Aplicada">
+
+            </a>
+
+          </div>
+
+
+
+
+
+          <div id="Unesco" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="../../Pdfs/UNESCO-Credibilidad_o_Veracidad_La_Autenticidad.pdf">
+                    ¿Credibilidad o veracidad? La autenticidad un valor de los bienes culturales
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 60px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Unesco.
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Lima UNESCO 2004
+
+                </p>
+
+            </div>
+
+            <a href="../../Pdfs/UNESCO-Credibilidad_o_Veracidad_La_Autenticidad.pdf">
+
+                <img class="imagenLibro" style="margin-top: -205px;" src="../../img/libro_CredibilidadOVeracidadLaAutenticidad_U.png" alt="Logo Credibildiad o Veracidad">
+
+            </a>
+
+          </div>
+
+
+
+
+
+          <div id="Ferrero Muñoz Ignacio" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="">
+                    ¿Es útil la economía? una mirada a los premios Nobel
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 60px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Ferrero Muñoz, Ignacio.
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Madrid Universidad de Navarra 2007
+
+                </p>
+
+            </div>
+
+            <a href="">
+
+                <img class="imagenLibro" style="margin-top: -205px;" src="../../img/libro_EsUtilLaEconomia_FMI.jpg" alt="Logo Es Util La Economia">
+
+            </a>
+
+          </div>
+
+
+
+
+
+          <div id="Pozo Sánchez Julio" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="">
+                    Defensa de la posesión
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 60px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Pozo Sánchez, Julio.
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Lima Instituto Pacífico 2015
+
+                </p>
+
+            </div>
+
+            <a href="">
+
+                <img class="imagenLibro" style="margin-top: -205px;" src="../../img/libro_DefensaDeLaPosesion_PSJ.jpg" alt="Logo Defensa de la Posesion">
+
+            </a>
+
+          </div>
+
+
+
+
+          
+          <div id="Gurfinkel De Wendy Liliana" class="miniContenedores">
+
+            <h3 style="margin-left: 13px;">
+                <a href="">
+                    Depreciación monetaria
+                </a>
+            </h3>
+
+            <div class="informacionLibro" style="margin-top: 60px;">
+
+                <p>
+
+                    <b>Autor: </b>
+
+                    Gurfinkel De Wendy, Liliana.
+
+                    <br/><br/>
+
+                    <b>Tipo de material: </b>
+
+                    Texto Texto
+
+                    <br/><br/>
+
+                    <b>Formato: </b>
+
+                    Impreso
+
+                    <br/><br/>
+
+                    <b>Forma literaria: </b>
+
+                    No es ficción
+
+                    <br/><br/>
+
+                    <b>Pie de imprenta: </b>
+
+                    Buenos Aires Depalma 1977
+
+                </p>
+
+            </div>
+
+            <a href="">
+
+                <img class="imagenLibro" style="margin-top: -205px;" src="../../img/libro_DepreciacionMonetario_GWL.webp" alt="Logo Depreciación monetaria">
+
+            </a>
+
+          </div>
+
+
+
+        </div>
+  
+  
+        <div class="contenedorBuscarYCategorias" >
+  
+          <div class="contenedorBuscador">
+  
+            <input id="cajaBuscadora" type="search" class="buscador" placeholder="Buscar en el Repositorio..."/>
+  
+            <button id="botonBuscar">
+    
+              <img src="../../img/icono_Search.png" alt="Icono Search">
+    
+            </button>
+  
+          </div>
+  
+  
+          <div class="contenedorCategoriasDeCatalogo">
+  
+            <p>
+              CATÁLOGO
+            </p>
+  
+            <div class="tabla">
+  
+              <a style="background-color: #ffbc0c;
+                        color: white;   border-top-right-radius: 8px;
+                        border-top-left-radius: 8px;" href="">
+                Todo el Repositorio
+              </a>
+  
+              <a href="repositorioUNFVCategoriaPorAutor.html">
+                Autor
+              </a>
+              
+              <a href="repositorioUNFVCategoriaPorTitulo.html">
+                Título
+              </a>
+  
+              <a href="repositorioUNFVCategoriaPorISBN.html">
+                ISBN
+              </a>
+  
+              <a href="">
+                Series
+              </a>
+  
+              <a href="">
+                Asignatura
+              </a>    
+  
+            </div>
+  
+          </div>
+  
+          <div class="contenedorCategoriasDeProfesiones">
+  
+            <p>
+              PROFESIONES
+            </p>
+  
+            <div class="tabla">
+  
+              <a class="a1" style="background-color: #ffbc0c;
+                  color: white;   border-top-right-radius: 8px;
+                  border-top-left-radius: 8px;" href="">  
+                  Todo el Repositorio           
+              </a>
+  
+              <a href="../RepositorioCategoriasProfesion/repositorioUNFVCategoriaAministracion.html">
+                Administración
+              </a>
+              
+              <a href="../RepositorioCategoriasProfesion/repositorioUNFVCategoriaArquitecturaYUrbanismo.html">
+                Arquitectura y Urbanismo
+              </a>
+  
+              <a href="../RepositorioCategoriasProfesion/repositorioUNFVCategoriaCienciasEconomicas.html">
+                Ciencias Económicas
+              </a>
+  
+              <a href="../RepositorioCategoriasProfesion/repositorioUNFVCategoriaDerechoYCienciaPolitica.html">
+                Derecho y Ciencia Política
+              </a> 
+  
+              <a href="../RepositorioCategoriasProfesion/repositorioUNFVCategoriaEducacion.html">
+                Educación
+              </a> 
+  
+              <a href="../RepositorioCategoriasProfesion/repositorioUNFVCategoriaHumanidades.html">
+                Humanidades
+              </a> 
+  
+              <a href="../RepositorioCategoriasProfesion/repositorioUNFVCategoriaIndustrialYSistemas.html">
+                Industrial y Sistemas
+              </a> 
+  
+              <a href="../RepositorioCategoriasProfesion/repositorioUNFVCategoriaIngenieriaCivil.html">
+                Ingeniería Civil
+              </a> 
+  
+              <a href="">
+                Odontología
+              </a> 
+  
+              <a href="">
+                Psicología
+              </a> 
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </main>
+
+      <script src="logica.js">
+       
+
+</body>
+</html>

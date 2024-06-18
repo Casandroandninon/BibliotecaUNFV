@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/estilosBibliotecaVirtual.css"/>
+    <title>
+        Biblioteca Virtual
+    </title>
+
+    <style>
+        .caja
+        {
+            width: 200px;
+            height: 200px;
+            background: orange;
+            margin: 10px;
+            display: inline-block;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+ 
+        <img class="logoUnfv" src="../img/Logo_UNFV.png" alt="Logo UNFV"/>
+  
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">
+                INICIO
+              </a>
+            </li>
+  
+            <li>
+              <a href="biblioteca_virtual.html">
+                BIBLIOTECA VIRTUAL
+              </a>
+            </li>
+  
+            <li>
+              <a href="">
+                QUIÉNES SOMOS
+              </a>
+            </li>
+  
+            <li>
+              <a href="">
+                MANUAL
+              </a>
+            </li>
+  
+            <li>
+              <a href="inicioSesion.html">
+                INICIAR SESIÓN
+              </a>
+            </li>
+          </ul>
+        </nav>
+  
+      </header>
+
+      <section class="bibliotecaVirtual">
+
+        <h1>
+            BIBLIOTECA VIRTUAL
+        </h1>
+
+        <br/>
+
+        <nav class="opcionesBiblioteca">
+            <ul>
+                <li>
+                    <button onclick="abrirDiv(1)">
+                        Libros Virtuales
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="abrirDiv(2)">
+                        Base de Datos
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="abrirDiv(3)">
+                        Revistas Digitales
+                    </button>
+                </li>
+
+                <li>
+                    <button onclick="abrirDiv(4)">
+                        Diarios
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="librosVirtuales" id="div1">
+
+            <div id="LV1" class="miniContenedores">
+
+                <img src="../img/logo_EBSCOeBooks.png" alt="Logo EBSCO eBooks"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        Ebsco eBooks
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Acceso a libros de diferentes áreas del conocimiento, tales como Salud, Arquitectura, Negocios, Ingeniería, Ciencias.
+                    </p>
+                </div>
+                
+                <button>
+                    <a href="https://www.ebsco.com/products/ebooks" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+     
+            </div>
+    
+            <div id="LV2" class="miniContenedores"> 
+
+                <img src="../img/logo_ProQuestEbookCentral.png" alt="Logo EBSCO eBooks"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        Ebook Academic Complete
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Especializada en las temáticas de: Artes, Negocios, Educación, Salud y Medicina, Historia, Derecho, Literatura y Lenguaje, Religión y Filosofía, Ciencia y Tecnología, Ciencias Sociales, entre otras.
+                    </p>
+                </div>
+          
+                <button>
+                    <a href="https://about.proquest.com/en/products-services/Academic-Complete/" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+
+            </div>
+    
+            <div id="LV3" class="miniContenedores">
+
+                <img src="../img/logo_e-libro.png" alt="Logo e-libro"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        E-libro
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Contiene diversos libros, artículos de revistas, apuntes de cátedra, y tesis doctorales de diferentes áreas académicas.
+                    </p>
+                </div>
+                
+                <button>
+                    <a href="https://www.elibro.com/" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+
+            </div>
+
+            <div id="LV4" class="miniContenedores">
+
+                <img src="../img/logo_alphacloud.png" alt="Logo e-libro"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        Alphacloud
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Acceso a libros de diferentes áreas del conocimiento, como ingenierías, sistemas, ciencias económicas, administrativas, marketing y publicidad, educación, entre otras.
+                    </p>
+                </div>
+                
+                <button>
+                    <a href="https://www.alphaeditorialcloud.com/library" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+
+            </div>
+    
+            <div id="LV5" class="miniContenedores">
+   
+                <img src="../img/logo_cengage.png" alt="Logo e-libro"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        Cengage
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Contiene libros de las áreas de Ciencias Básicas, Ciencias Sociales, Negocios, Ingeniería, Matemáticas y Estadística.
+                    </p>
+                </div>
+                
+                <button>
+                    <a href="https://latam.cengage.com/" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+
+            </div>
+    
+            <div id="LV6" class="miniContenedores">
+              
+                <img src="../img/logo_pearson.png" alt="Logo e-libro"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        Pearson
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Contiene libros de las áreas de Ciencias Básicas, Ciencias Sociales, Negocios, Ingeniería, Matemáticas y Estadística.
+                    </p>
+                </div>
+                
+                <button>
+                    <a href="https://www.pearsoneducacion.net/peru/inicio" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+
+            </div>
+            
+            <div id="LV7" class="miniContenedores">
+        
+                <img src="../img/logo_OvidEspañol.jpg" alt="Logo e-libro"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        Ebooks OVID
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Acceso a libros virtuales relacionados a Anatomía, Nutrición y Enfermería.
+                    </p>
+                </div>
+                
+                <button>
+                    <a href="https://ovidsp.dc2.ovid.com/ovid-b/ovidweb.cgi?QS2=434f4e1a73d37e8cb17da02d43bbd96cb9cd9a2def85636d70b639b6cf82addb19728d1d5af9925d0188eb2ca1bff7e1ebbca313732496bf50a04641a6eae3ced231623398f1218209f45f5e09ea222a2a2b1ec37fbf02fe67ab64c3325a721352841fca60a459bd9d7a1253f97d539be926c2c25fffbb4adaeaa7b5b3f1628a395fe4dc8c285401a146277fba41d6c5fd90bd644bd29c22a830e2cee24de60dbbc1895de294156b68bc33cddad7de3bc6fc08f5619cdc6ea659b0ba666d4df437f6bc3e97634b67957cb7fb462de05908bbb26bce12e673" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+
+            </div>
+    
+            <div id="LV8" class="miniContenedores">
+              
+                <img src="../img/logo_MedicaPanamericana.svg" alt="Logo e-libro"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        Médica Panamericana
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Acceso a libros virtuales de la editorial Médica Panamericana, relacionados a la Facultad de Salud.
+                    </p>
+                </div>
+                
+                <button>
+                    <a href="https://www.medicapanamericana.com/mx" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+
+            </div>
+    
+            <div id="LV9" class="miniContenedores">
+
+                <img src="../img/logo_BibliotecaDigitalCP67.png" alt="Logo Biblioteca Digital CP67"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        Plataforma CP67
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Acceso a libros virtuales con temáticas relacionadas a Arquitectura, Comunicación, Ing. Civil, entre otros.
+                    </p>
+                </div>
+          
+                <button>
+                    <a href="https://bibliotecadigital.cp67.com/" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+          
+            </div>    
+            
+            <div id="LV10" class="miniContenedores">
+   
+                <img src="../img/logo_McGrawHill.jpg" alt="Logo Biblioteca Digital CP67"/>
+
+                <div class="contenidoDiv">
+                    <h3>
+                        McGrawHill / ECOE Ediciones
+                    </h3>
+    
+                    <hr size="4"/>
+              
+                    <p>
+                        Contiene libros con temáticas en ciencias básicas, ciencias económicas – administrativas, ingenierías, ciencias sociales, entre otras.
+                    </p>
+                </div>
+          
+                <button>
+                    <a href="https://www.ecoeediciones.com/" target="_blank">
+                      Ir al Sitio Web
+                    </a>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="baseDeDatos" id="div2">
+
+            <div class="bd_contenedor1" id="bd_contenedor1">
+
+                <div id="ADEX_DataTrade" class="miniContenedores">
+    
+                    <img src="../img/logo_AdexDataTrade.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo Adex Data Trade"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            ADEX Data Trade
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            Sistema de inteligencia comercial que brinda información de comercio exterior del Perú y del mundo.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="AgEconSearch" class="miniContenedores">
+    
+                    <img src="../img/logo_AgEconSearch.png" 
+                         style="width: 300px; margin-top: 30px; margin-left: 40px;
+                                margin-bottom: 15px;" 
+                         alt="Logo Aecon Search"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            AgEcon Search
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 25px;">
+                            Presenta los siguientes recursos: revistas científicas, documentos de conferencia, capítulos de libros, trabajos de discusión y tesis.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="AgrisFAO" class="miniContenedores">
+    
+                    <img src="../img/logo_AgrisFAO.png" 
+                         style="width: 250px; margin-top: 25px; margin-left: 75px;
+                                margin-bottom: 5px;" 
+                         alt="Logo Agris FAO"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            Agris FAO
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 24px;">
+                            Base de datos mundial que proporciona acceso a información relativa a la ciencia y la tecnología agrícola. Está respaldada por la FAO. 
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="Alicia" class="miniContenedores">
+    
+                    <img src="../img/logo_Alicia.png" 
+                         style="width: 250px; margin-top: 35px; margin-left: 70px;
+                                margin-bottom: 16px;" 
+                         alt="Logo Alicia"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            Alicia
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 12px;">
+                            El Repositorio Nacional Digital ALICIA ofrece una gran variedad de trabajos de investigación, libros y artículos científicos multidisciplinarios a texto completo dirigidos a investigadores y estudiantes.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="ArchInform" class="miniContenedores">
+    
+                    <img src="../img/logo_archINFORM.jfif" 
+                         style="width: 250px; margin-top: 20px; margin-left: 65px;
+                                " 
+                         alt="Logo ArchINFORM"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            ArchInform
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 13px;">
+                            Esta base de datos surgió  de los registros de proyectos de estudiantes de arquitectura y se ha convertido en la base de datos en línea más grande sobre arquitectos y edificios en todos del mundo.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="BenthamOpen" class="miniContenedores">
+    
+                    <img src="../img/logo_BenthamOpen.png" 
+                         style="width: 250px; margin-top: 25px; margin-left: 70px;
+                                margin-bottom: 13px;" 
+                         alt="Logo Bentham Open"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            Bentham Open
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 28px;">
+                            Plataforma de publicaciones periódicas científicas, técnicas, médicas y libros electrónicos, conferencias y congresos en acceso abierto.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+     
+            </div>
+
+            <div class="bd_contenedor2" id="bd_contenedor2">
+
+                <div id="BepressLegalRepository" class="miniContenedores">
+    
+                    <img src="../img/logo_BepressLegalRepository.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo Bepress Legal Repository"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            Bepress Legal Repository
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            Bepress Legal Repository es un repositorio de revistas electrónicas de acceso abierto. Las publicaciones pertenecen al área de las ciencias sociales, derecho, medicina y ciencias naturales.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="BibliotecaVirtualDeSalud" class="miniContenedores">
+    
+                    <img src="../img/logo_BibliotecaVirtualDeSalud.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo Biblioteca Virtual de Salud"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            Biblioteca Virtual de Salud
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            Presenta la colección de bases de datos bibliográficos producidas par la Red de BVS, como LILACS, MEDLINE y otros tipos de información.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="BiomedCentral" class="miniContenedores">
+    
+                    <img src="../img/logo_Biomed.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo Biomed Central (BMC)"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            Biomed Central (BMC)
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            BioMed Central es parte de Springer Nature, con 291 revistas de acceso abierto revisadas por pares sobre Ciencia, Tecnología y Medicina.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="CEPAL" class="miniContenedores">
+    
+                    <img src="../img/logo_CEPAL.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo CEPAL: Repositorio Digital"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            CEPAL: Repositorio Digital
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            El Repositorio Digital de la CEPAL ofrece acceso a más de 35000 publicaciones en áreas temáticas como las ciencias sociales y empresariales.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="CLACSO" class="miniContenedores">
+    
+                    <img src="../img/logo_CLACSO.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo de CLACSO"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            CLACSO
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            La Red de Bibliotecas Virtuales de Ciencias Sociales de América Latina y el Caribe proporciona acceso libre y gratuito a textos digitales completos de artículos de investigación.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+                
+                <div id="Dialnet" class="miniContenedores">
+    
+                    <img src="../img/logo_dialnet.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo Dialnet"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            Dialnet
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            La Fundación Dialnet difunde a través de su plataforma web revistas y tesis académicas digitales en acceso abierto y a texto completo.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+                
+            </div>
+
+            <div class="bd_contenedor3" id="bd_contenedor3">
+                
+                <div id="DOAJ" class="miniContenedores">
+    
+                    <img src="../img/logo_DOAJ.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo DOAJ"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            DOAJ
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            El Directory of Open Access Journals (DOAJ) es un directorio de revistas de acceso abierto.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="ERIC" class="miniContenedores">
+    
+                    <img src="../img/logo_ERIC.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo ERIC"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            ERIC
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            ERIC es una plataforma web que permite recuperar recursos educativos revisados por pares. También cuenta con un tesauro y textos completos de las ciencias educativos.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="INDECOPI" class="miniContenedores">
+    
+                    <img src="../img/logo_indecopi.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo INDECOPI"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            INDECOPI
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            El Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual ofrece Bases de datos que contienen información sobre registros de patentes, etc.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="LaReferencia" class="miniContenedores">
+    
+                    <img src="../img/logo_LaReferencia.png" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo La Referencia"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            La Referencia
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            El portal La Referencia permite explorar la producción científica de las instituciones de educación superior de América Latina.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="OpenKnowledgeRepository" class="miniContenedores">
+    
+                    <img src="../img/logo_OpenKnowledgeRepository.jfif" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo Open Knowledge Repository"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            Open Knowledge Repository
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            Open Knowledge Repository es un repositorio de acceso abierto que publica los resultados de las investigaciones realizadas por el Banco Mundial. 
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+                <div id="Publindex" class="miniContenedores">
+    
+                    <img src="../img/logo_publindex.jpg" 
+                         style="width: 200px; margin-top: 30px; margin-left: 90px;
+                                margin-bottom: 10px;" 
+                         alt="Logo Publindex"/>
+        
+                    <div class="contenidoDiv">
+                        <h3>
+                            Publindex
+                        </h3>
+            
+                        <hr size="4"/>
+                      
+                        <p style="margin-bottom: 41px;">
+                            El Índice Bibliográfico Nacional está conformado por Revistas Colombianas Especializadas en Ciencias, Tecnologías e Innovación clasificadas por categorías.
+                        </p>
+                    </div>
+                  
+                    <button>
+                        <a href="" target="_blank">
+                            Ir al Sitio Web
+                        </a>
+                    </button>
+        
+                </div>
+
+            </div>        
+
+            <nav class="navBDGeneral" >
+                <ul>
+                    <li>
+                        <button onclick="abrirBdContenedor(0)">
+                            Anterior
+                        </button>
+                    </li>
+
+                    <li>
+                        <button onclick="abrirBdContenedor(1)">
+                            1
+                        </button>
+                    </li>
+    
+                    <li>
+                        <button onclick="abrirBdContenedor(2)">
+                            2
+                        </button>
+                    </li>
+    
+                    <li>
+                        <button onclick="abrirBdContenedor(3)">
+                            3
+                        </button>
+                    </li>
+
+                    <li>
+                        <button onclick="abrirBdContenedor(4)">
+                            Siguiente
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+
+        
+
+
+          
+
+
+
+
+    
+
+      </section>
+
+      <footer>
+
+        <div class="footerSuperior" style="margin-top:127%;">
+  
+          <p>
+            Copyright © 2017 Universidad Nacional Federico Villarreal - Centro Universitario de Cómputo e Informática
+          </p>
+  
+        </div>
+  
+  
+  
+        <div class="footerInferior">
+  
+          <img class="LogoUnfvTransparente" src="../img/logo_unfv_transparente.png" alt="">
+  
+          <div class="informacionUNFV">
+  
+            <p>
+  
+              <img src="" alt="">
+  
+              DIRECCIÓN: Jr. Carlos Gonzáles 285 Urb. Maranga - San Miguel
+  
+              <br/><br/>
+  
+              <img src="" alt="">
+  
+              CENTRAL TELEFÓNICA: (+51) 748 0888
+  
+              <br/><br/>
+  
+              <img src="" alt="">
+  
+              CORREO INSTITUCIONAL: occii@unfv.edu.pe
+  
+            </p>
+  
+          </div>
+  
+          <div class="mapa">
+  
+  
+          </div>
+  
+          <div class="RedesSociales">
+  
+            <p>Nuestras Redes Sociales</p>
+            <br/><br/>
+  
+            <nav class="NavegadorRedesSociales">
+              <ul>
+                <li class="Facebook"></li>
+                <li class="Twitter"></li>
+                <li class="Instagram"></li>
+                <li class="Youtube"></li>
+              </ul>
+            </nav>
+  
+          </div>
+  
+          <a href="libro_reclamaciones.html">
+            <img class="LogoLibroReclamaciones" src="../img/logo_LibroReclamaciones.png" alt="">
+          </a>
+  
+        </div>
+        
+      </footer>
+
+      <script>
+
+        window.onload=function()
+        {
+            ocultarTodosLosDiv();
+            aparecerDiv(document.getElementById("div1"));
+        }  
+
+        function ocultarDiv(x)
+        {
+            x.style.display = "none";
+        }
+
+        function aparecerDiv(x)
+        {
+            x.style.display = "block";
+        }
+
+        function abrirDiv(num)
+        {
+            ocultarTodosLosDiv();
+
+            switch(num)
+            {
+                case 1: aparecerDiv(document.getElementById("div1"));
+                        break;
+
+                case 2: aparecerDiv(document.getElementById("div2"));
+                        ocultarTodosBdContenedores();
+                        aparecerDiv(document.getElementById("bd_contenedor1"));
+                        break;
+
+                case 3: aparecerDiv(document.getElementById("div3"));
+                        break;
+
+                case 4: aparecerDiv(document.getElementById("div4"));
+                        break;
+            }
+        }
+
+        function abrirBdContenedor(num)
+        {
+            ocultarTodosBdContenedores();
+
+            switch(num)
+            {
+                case 0: break;
+                case 1: aparecerDiv(document.getElementById("bd_contenedor1")); break;
+                case 2: aparecerDiv(document.getElementById("bd_contenedor2"));break;
+                case 3: aparecerDiv(document.getElementById("bd_contenedor3"));break;
+                case 4: break;
+            }
+        }
+
+        function ocultarTodosLosDiv()
+        {
+            for(i=1; i<=2; i++)
+            {
+                ocultarDiv(document.getElementById("div"+i));
+            }
+        }
+
+        function ocultarTodosBdContenedores()
+        {       
+            for(i=1; i<=3; i++)
+            {
+                ocultarDiv(document.getElementById("bd_contenedor"+i));
+            }
+        }
+
+ /*       var btnSaluda = document.getElementById('boton');
+        btnSaluda.addEventListener('click',crearCaja);
+        function crearCaja()
+        {
+            var caja = document.createElement('div');
+            caja.className = "caja";
+            var container = document.getElementById('container');
+            container.appendChild(caja);
+        }*/
+
+    </script>
+  </body>
+
+</html>

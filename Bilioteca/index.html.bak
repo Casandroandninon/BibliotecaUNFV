@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/estilosIndex.css"/>
+    <title>
+        Inicio
+    </title>
+
+  </head>
+
+  <body>
+    
+    <header>
+ 
+      <img class="logoUnfv" src="../img/Logo_UNFV.png" alt="Logo UNFV"/>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">
+              INICIO
+            </a>
+          </li>
+
+          <li>
+            <a href="biblioteca_virtual.html">
+              BIBLIOTECA VIRTUAL
+            </a>
+          </li>
+
+          <li>
+            <a href="quienesSomos.html">
+              QUIÉNES SOMOS
+            </a>
+          </li>
+
+          <li>
+            <a href="manual.html">
+              MANUAL
+            </a>
+          </li>
+
+          <li>
+            <a href="inicioSesion.php">
+              Cerrar sesion
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+
+
+    <section class="section1">
+
+      <div class="bloqueBienvenido">
+
+        <h1>
+          Bienvenido
+        </h1>
+
+        <br/>
+
+        <p>
+          La más cordial bienvenida a nuestra biblioteca virtual donde nos encargaremos de mantener, actualizar y facilitar
+          el uso de todo tipo de documentos y datos sobre el conocimiento universal. De esta manera le proporcionaremos una 
+          infraestructura a través del cual tendrá acceso a recursos de información en variados formatos (impresos, 
+          electrónicos, otros), y además podrá encontrar un Sistema de Base de Datos en la cual puede acceder a distintos
+          libros de variedad múltiple.
+        </p>
+
+      </div>
+
+      <img class="logoLibros" src="../img/Logo_Libros.png"/>
+
+    </section>
+
+
+    <main class="main">
+
+      <div class="servicios">
+
+        <h1>
+          Servicios
+        </h1>
+  
+        <br/><br/>
+
+        <p>
+          Por motivo de la actual emergencia sanitaria que se vive en el país debido al COVID-19, estamos habilitando
+          al público usuario diversos servicios en línea de manera virtual con la finalidad de evitar más contagios
+          a la hora de acercarse a la biblioteca de nuestra Cede de manera presencial.
+        </p>
+
+        <br/><br/>
+
+      </div>
+
+      <div class="contenedor">
+
+        <div class="catalogoEnLinea">
+
+          <h2>
+            Catálogo en Línea
+          </h2>
+  
+          <p>
+            Ingrese aquí para buscar Enlaces de interés, Libros y hacer la reserva de ejemplares en línea
+          </p>
+  
+          <button>
+            <a href="">
+              INGRESAR
+            </a>
+          </button>
+  
+        </div>
+
+        <div class="bibliotecaVirtual">
+
+          <h2>
+            Biblioteca Virtual
+          </h2>
+  
+          <p>
+            Ingrese aquí para buscar Libros de distintas categorías y de acceso público
+          </p>
+  
+          <button>
+            <a href="biblioteca_virtual.html">
+              INGRESAR
+            </a>
+          </button>
+          
+        </div>
+  
+        <div class="repositorioInstitucional">
+  
+          <h2>
+            Repositorio UNFV
+          </h2>
+  
+          <p>
+            Ingrese aquí para buscar Documentos que pertenecen a la UNFV
+          </p>
+  
+          <button>
+            <a href="repositorioUNFVPrincipal.html">
+              INGRESAR
+            </a>
+          </button>
+          
+        </div>
+		
+		<div class="catalogoEnLinea">
+  
+          <h2>
+            Reserva de libros 
+          </h2>
+  
+          <p>
+            Ingrese aquí para reservar los libros 
+          </p>
+  
+          <button>
+            <a href="reserva.html">
+              INGRESAR
+            </a>
+          </button>
+          
+        </div>
+
+      </div>
+
+    </main>
+
+
+
+    <footer>
+
+      <div class="footerSuperior">
+
+        <p id="etiquetaid">
+          Copyright © 2017 Universidad Nacional Federico Villarreal - Centro Universitario de Cómputo e Informática
+        </p>
+
+      </div>
+
+
+
+      <div class="footerInferior">
+
+        <img class="LogoUnfvTransparente" src="/img/logo_unfv_transparente.png" alt="">
+
+        <div class="informacionUNFV">
+
+          <p>
+
+            <img src="" alt="">
+
+            DIRECCIÓN: Jr. Carlos Gonzáles 285 Urb. Maranga - San Miguel
+
+            <br/><br/>
+
+            <img src="" alt="">
+
+            CENTRAL TELEFÓNICA: (+51) 748 0888
+
+            <br/><br/>
+
+            <img src="" alt="">
+
+            CORREO INSTITUCIONAL: occii@unfv.edu.pe
+
+          </p>
+
+        </div>
+
+        <div class="mapa">
+
+
+        </div>
+
+        <div class="RedesSociales">
+
+          <p>Nuestras Redes Sociales</p>
+          <br/><br/>
+
+          <nav class="NavegadorRedesSociales">
+            <ul>
+              <li class="Facebook"></li>
+              <li class="Twitter"></li>
+              <li class="Instagram"></li>
+              <li class="Youtube"></li>
+            </ul>
+          </nav>
+
+        </div>
+
+        <a href="http://localhost/ciocca/libro_reclamaciones.php">
+          <img class="LogoLibroReclamaciones" src="/img/logo_LibroReclamaciones.png" alt="">
+        </a>
+
+      </div>
+      
+    </footer>
+
+
+
+  </body>
+
+</html>

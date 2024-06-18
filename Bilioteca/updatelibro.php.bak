@@ -1,0 +1,22 @@
+<?php
+
+include("conexion.php");
+$con=conectar();
+
+$id=$_POST['id'];
+$titulo=$_POST['titulo'];
+$id_editorial=$_POST['id_editorial'];
+$año=$_POST['año'];
+$id_autor=$_POST['id_autor'];
+$id_categoria=$_POST['id_categoria'];
+
+
+
+
+$sql="UPDATE libro SET  titulo='$titulo',id_editorial='$id_editorial',año='$año',id_autor='$id_autor',id_categoria='$id_categoria' WHERE id_usuario='$id_usuario'";
+$query=mysqli_query($con,$sql);
+
+    if($query){
+        Header("Location:libros.php");
+    }
+?>

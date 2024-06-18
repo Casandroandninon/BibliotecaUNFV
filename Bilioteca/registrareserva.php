@@ -1,0 +1,55 @@
+<?php
+	include_once('connect_db.php');
+$fecha_de_prestamo=$_POST['fecha_prestamo'];
+$fecha_devolucion=$_POST['fecha_devolucion'];
+$usuario_id=$_POST['usuario_id'];
+$id_libro=$_POST['id_libro'];
+
+
+
+$reqlen= strlen($fecha_de_prestamo)*strlen($fecha_devolucion)*strlen($usuario_id)*strlen($id_libro);
+$arrayAsociativo=array('exito'=>'Se registro exitoxamente');
+if($reqlen>0){
+	
+		$conectar=conn();
+		$sql="INSERT INTO prestamo(id,fecha_prestamo,fecha_devolucion,usuario_id,libro_id)
+		VALUES ('','$fecha_de_prestamo','$fecha_devolucion',
+		'$usuario_id','$id_libro')";
+		$resul=mysqli_query($conectar ,$sql) or trigger_error("Query Failed! SQL-Error:".mysqli_error($conectar), E_USER_ERROR);
+		echo "$sql";
+		
+		echo $arrayAsociativo['exito'];
+		
+	}
+else{
+		echo 'Por favor, rellene todos los campos requeridos.';
+}
+
+?>
+	
+	<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/estilosInicioSesion.css">
+    <title>
+        Inicio de Sesión
+    </title>
+
+  </head>
+  
+
+  <body>
+
+    
+
+  <center> <a href="index.html"><h1>Regresar al Menu principal pagina pricipal</h1></a></center>
+	
+
+  </body>
+
+</html>

@@ -1,0 +1,25 @@
+<?php
+
+include("conexion.php");
+$con=conectar();
+
+$id_usuario=$_POST['cod_usuario'];
+$usuario=$_POST['nombre'];
+$apellido=$_POST['apellido'];
+$cargo=$_POST['cargo'];
+$especialidad=$_POST['especialidad'];
+$correo=$_POST['correo'];
+$contraseña=$_POST['contraseña'];
+$genero=$_POST['genero'];
+$fecha_nacimiento=$_POST['fecha_nacimiento'];
+$celular=$_POST['celular'];
+
+
+
+$sql="UPDATE usuario SET  usuario='$usuario',apellido='$apellido',cargo='$cargo',especialidad='$especialidad',correo='$correo',contraseña='$contraseña',genero='$genero',fecha_nacimiento='$fecha_nacimiento',celular='$celular' WHERE id_usuario='$id_usuario'";
+$query=mysqli_query($con,$sql);
+
+    if($query){
+        Header("Location: usuario.php");
+    }
+?>
